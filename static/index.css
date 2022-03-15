@@ -1,0 +1,18 @@
+p{
+    text-align: center;
+}
+.btn{
+    display: block;
+    margin: 12px auto 12px auto;
+    padding: 9px 30px;
+    border-radius: 2px;
+    color: black;
+    background-color: orange;
+    border: 1px solid rgb(71, 71, 71);
+    font-weight: bold;
+    filter: drop-shadow(1px 1px 1px  rgb(48, 48, 48));
+    cursor: pointer;
+}
+.bodyContainer{
+    margin-top: 12px;
+}
