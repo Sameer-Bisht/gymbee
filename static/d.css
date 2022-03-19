@@ -1,0 +1,12 @@
+.gotohome{
+    text-decoration: none;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,26 @@
+extends base.pug
+block styles
+   style
+    include ../static/login.css
+    include ../static/index.css
+block content
+    div.bodyContainer
+        div#login
+            h1 Register Yourself    
+            div.loginContainer
+                form(action='/trylog', method='post')
+                
+                    | Name: 
+                    input(type='text', name='name',id="name", value='',placeholder='Type your name') 
+                    | Email: 
+                    input(type='text', name='email',id="email", value='',placeholder='Type your email address') 
+                    |Age: 
+                    input(type='Age', name='age',id="age", value='',placeholder='Type your age')
+                    |Phone: 
+                    input(type='Phone', name='phone',id="phone", value='',placeholder='Type your phone number')
+                    button.btn(type="submit" ) Submit 
+            span *this information will be always kept private and will not be disclosed
+
+            a(href="/glogin") 
+                button.btn Login using GOOGLE 
+            

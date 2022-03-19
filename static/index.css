@@ -1,10 +1,40 @@
+
+#about-services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 48px;
+}
+.about{
+   
+}
+.services{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 p{
     text-align: center;
 }
 .btn{
     display: block;
-    margin: 12px auto 12px auto;
-    padding: 9px 30px;
+    margin: 50px auto 12px auto;
+    padding:4px 15px;
     border-radius: 2px;
     color: black;
     background-color: orange;
@@ -14,5 +44,37 @@ p{
     cursor: pointer;
 }
 .bodyContainer{
-    margin-top: 12px;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+#home{
+    margin: 30px 0;
+    position: relative;
+    height: 149px;
+   
+}
+#home a{
+    text-decoration: none;
+}
+#home h1{
+    font-size: 19px;
+    color: white;
+    filter: drop-shadow(1px 1px 1px black);
+}
+#home::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background:url('GYM.jpg') center center no-repeat;
+    z-index: -1;
+    top: 0;
+    background-size: 300px;
+    left: 0;
+    position: absolute;
+
+
+}
+
+p{
+    padding: 10px 34px ;
 }

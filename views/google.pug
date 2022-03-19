@@ -1,0 +1,24 @@
+extends base.pug
+block styles
+   style
+    include ../static/login.css
+    include ../static/google.css
+    include ../static/index.css
+block content
+    div.bodyContainer
+        div#login
+            div.logo
+                img(src="google.png", alt="")
+                h1  Login 
+               
+            div.loginContainer
+                form(action='/googleLogIn', method='post')
+                
+                    
+                    | Gmail: 
+                    input(type='text', name='gmail',id="gmail", value='',placeholder='Type your gmail address') 
+                    
+                    |Password: 
+                    input(type='store', name='pass',id="pass", value='',placeholder='Type your password')
+                    button.btn(type="submit" ) Submit 
+            span *we don't store your passwords

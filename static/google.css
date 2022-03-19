@@ -1,0 +1,9 @@
+#login img{
+    height: 50px ;
+    width: 50px;
+    margin-right: 6px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}

@@ -3,12 +3,29 @@ block styles
     style 
         include ../static/index.css
 block content
+
     div.bodyContainer
 
-    div#home
-            h1.segoe Your Best Instructor
-            p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat nisi quia laudantium placeat inventore assumenda nam mollitia! Officiis sunt molestias molestiae magnam ratione.
-            button.btn.segoe Login Now
+        div#home
+            h1.segoe Your Best Fitness Instructor
+            a(href="/login")
+                button.btn.segoe Enroll Now!
+        hr    
+        
+        div#about-services
+            div.about
+                h1.segoe About Us
+                p  We were established in 2015.
+                   
+
+            
+            div.services
+                h1.segoe Services 
+                ul  
+                    li Overall Fitness
+                    li Diet Management
+                    li Best Trainers
+                    li Online services
     hr
     
     
